@@ -1,0 +1,363 @@
+[
+    {
+      "id": 1,
+      "question": "¿Cuál es la salida de este código?",
+      "code": "console.log(typeof NaN)",
+      "answers": [
+        "undefined",
+        "NaN",
+        "string",
+        "number"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": 2,
+      "question": "¿Qué devuelve este código?",
+      "code": "console.log(0 == false)",
+      "answers": [
+        "true",
+        "false",
+        "undefined",
+        "Error"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 3,
+      "question": "¿Cuál es la salida de este código?",
+      "code": "console.log(1 + '2' + 3)",
+      "answers": [
+        "6",
+        "123",
+        "33",
+        "'15'"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 4,
+      "question": "¿Qué retorna este código?",
+      "code": "console.log([1,2,3] instanceof Array)",
+      "answers": [
+        "true",
+        "false",
+        "undefined",
+        "Error"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 5,
+      "question": "¿Qué muestra este código?",
+      "code": "console.log(typeof null)",
+      "answers": [
+        "null",
+        "object",
+        "undefined",
+        "Error"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 6,
+      "question": "¿Qué valor devuelve este código?",
+      "code": "console.log(Number('10') + 10)",
+      "answers": [
+        "1010",
+        "20",
+        "NaN",
+        "Error"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 7,
+      "question": "¿Cuál es la salida de este código?",
+      "code": "console.log(!!false)",
+      "answers": [
+        "true",
+        "false",
+        "undefined",
+        "Error"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 8,
+      "question": "¿Qué muestra este código?",
+      "code": "console.log([] + [])",
+      "answers": [
+        "[]",
+        "",
+        "undefined",
+        "Error"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 9,
+      "question": "¿Cuál es el resultado?",
+      "code": "console.log(typeof undefined)",
+      "answers": [
+        "undefined",
+        "object",
+        "string",
+        "Error"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 10,
+      "question": "¿Qué ocurre con este código?",
+      "code": "console.log('5' - 3)",
+      "answers": [
+        "53",
+        "2",
+        "NaN",
+        "Error"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 11,
+      "question": "¿Cuál es la salida del código?",
+      "code": "console.log(typeof function(){})",
+      "answers": [
+        "function",
+        "object",
+        "undefined",
+        "Error"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 12,
+      "question": "¿Qué devuelve este código?",
+      "code": "console.log(typeof NaN === 'number')",
+      "answers": [
+        "true",
+        "false",
+        "undefined",
+        "Error"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 13,
+      "question": "¿Qué sucede en este caso?",
+      "code": "console.log(3 === '3')",
+      "answers": [
+        "true",
+        "false",
+        "undefined",
+        "Error"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 14,
+      "question": "¿Qué muestra este código?",
+      "code": "console.log(3 == '3')",
+      "answers": [
+        "true",
+        "false",
+        "undefined",
+        "Error"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 15,
+      "question": "¿Qué sucede al ejecutar este código?",
+      "code": "console.log(parseInt('10px'))",
+      "answers": [
+        "10",
+        "NaN",
+        "0",
+        "Error"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 16,
+      "question": "¿Qué devuelve este código?",
+      "code": "console.log(1 / 0)",
+      "answers": [
+        "Infinity",
+        "NaN",
+        "undefined",
+        "Error"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 17,
+      "question": "¿Cuál es el resultado de este código?",
+      "code": "console.log(2 ** 3)",
+      "answers": [
+        "6",
+        "8",
+        "9",
+        "Error"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 18,
+      "question": "¿Qué pasa aquí?",
+      "code": "console.log(Boolean(0))",
+      "answers": [
+        "true",
+        "false",
+        "undefined",
+        "Error"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 19,
+      "question": "¿Qué devuelve el siguiente código?",
+      "code": "console.log(isNaN('string'))",
+      "answers": [
+        "true",
+        "false",
+        "undefined",
+        "Error"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 20,
+      "question": "¿Qué se obtiene?",
+      "code": "console.log(Math.max(10, 20, 30))",
+      "answers": [
+        "10",
+        "20",
+        "30",
+        "Error"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": 21,
+      "question": "¿Cuál es el resultado?",
+      "code": "console.log([...'hello'])",
+      "answers": [
+        "['hello']",
+        "['h', 'e', 'l', 'l', 'o']",
+        "undefined",
+        "Error"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 22,
+      "question": "¿Qué devuelve este código?",
+      "code": "console.log(typeof [])",
+      "answers": [
+        "array",
+        "object",
+        "undefined",
+        "Error"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 23,
+      "question": "¿Qué pasa aquí?",
+      "code": "console.log(!!'')",
+      "answers": [
+        "true",
+        "false",
+        "undefined",
+        "Error"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 24,
+      "question": "¿Qué muestra este código?",
+      "code": "console.log(10 > 9 > 8)",
+      "answers": [
+        "true",
+        "false",
+        "undefined",
+        "Error"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 25,
+      "question": "¿Qué se obtiene al ejecutar este código?",
+      "code": "console.log(typeof typeof 1)",
+      "answers": [
+        "number",
+        "string",
+        "undefined",
+        "Error"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 26,
+      "question": "¿Qué ocurre con este código?",
+      "code": "console.log({} == {})",
+      "answers": [
+        "true",
+        "false",
+        "undefined",
+        "Error"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 27,
+      "question": "¿Cuál es la salida de este código?",
+      "code": "console.log([] == false)",
+      "answers": [
+        "true",
+        "false",
+        "undefined",
+        "Error"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 28,
+      "question": "¿Qué muestra este código?",
+      "code": "console.log(null == undefined)",
+      "answers": [
+        "true",
+        "false",
+        "undefined",
+        "Error"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 29,
+      "question": "¿Qué retorna este código?",
+      "code": "console.log(new Boolean(false))",
+      "answers": [
+        "true",
+        "false",
+        "undefined",
+        "Error"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 30,
+      "question": "¿Qué resultado se obtiene?",
+      "code": "console.log(+'5')",
+      "answers": [
+        "'5'",
+        "5",
+        "NaN",
+        "Error"
+      ],
+      "correctAnswer": 2
+    }
+  ]
+  
